@@ -34,6 +34,9 @@ public class Main {
         System.out.println(klasaProg);
         klasaProg.wypiszListeUczniow();
         Szkola szkola=Szkola.getSzkola();
+        //nie dziala 2 liniki w dol
+        klasaProg.usunUcznaZKlasy(uczenBasia);
+        klasaProg.dodajUczniaDoKlasy(uczenBasia);
     }
 
 }

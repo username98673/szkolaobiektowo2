@@ -24,6 +24,11 @@ public class Klasa {
             System.out.println(i+" "+uczniowie.get(i).getImie()+" "+uczniowie.get(i).getNazwisko());
         }
     }
+    public void usunUcznaZKlasy(Uczen uczen){
+        if(uczniowie.contains(uczen)){
+            uczniowie.remove(uczen);
+        }
+    }
     @Override
     public String toString() {
         return "Klasa{" +
